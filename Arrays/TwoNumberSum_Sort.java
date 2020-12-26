@@ -1,6 +1,6 @@
 import java.util.*;
-class Program {
-    public static void main(String args[]) {
+class TwoNumberSum_SortProgram {
+    public static void main(String[] args) {
         int array[] = {3, 5, -4, 8, 11, 1, -1, 6};
         int targetSum = 10;
         int result[] = twoNumberSum(array, targetSum);

@@ -1,5 +1,5 @@
 import java.util.*;
-class Program1 {
+class TwoNumberSum_Set {
     public static void main(String args[]) {
         int array[] = {-21, 301, 12, 4, 65, 56, 210, 356, 9, -47};
         int targetSum = 163;
