@@ -12,15 +12,15 @@ class TwoNumberSum_SortProgram {
 
     public static int[] twoNumberSum(int[] array, int targetSum) {
 		Arrays.sort(array);
-		int start = 0;
-		int end = array.length - 1;
-		while(start<end) {
-			if(array[start]+array[end] == targetSum) {
-				return new int[] {array[start], array[end]};
-			} else if (array[start]+array[end] < targetSum) {
-				start = start + 1;
+		int start = 0, end = array.length - 1;
+		while (start < end) {
+			int currentSum = array[start] + array[end];
+			if (currentSum == targetSum) {
+				return new int[]{array[start], array[end]};
+			} else if (currentSum > targetSum) {
+				end--;
 			} else {
-				end = end - 1;
+				start++;
 			}
 		}
 		return new int[0];
