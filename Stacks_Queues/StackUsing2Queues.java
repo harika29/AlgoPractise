@@ -34,7 +34,7 @@ public class StackUsing2Queues {
 
     static void pop1() {
         if (q1.isEmpty()) {
-            System.out.println("Queue is empty");
+            System.out.println("Stack is empty");
             return;
         }
 
@@ -62,7 +62,7 @@ public class StackUsing2Queues {
 
     static void pop2() {
         if (q1.isEmpty()) {
-            System.out.println("Queue is empty");
+            System.out.println("Stack is empty");
             return;
         }
        System.out.println(q1.remove());
