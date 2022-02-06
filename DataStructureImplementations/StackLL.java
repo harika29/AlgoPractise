@@ -81,6 +81,5 @@ public class StackLL {
         sll.pop(); // Popping out 6
         sll.pop(); // Popping out 2
         sll.isEmpty(); // Stack is empty
-
     }
 }
